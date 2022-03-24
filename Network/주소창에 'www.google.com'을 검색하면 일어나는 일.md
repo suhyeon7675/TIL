@@ -67,10 +67,12 @@ DB에서 필요한 데이터 정보를 받아서 파일을 생성한다.
 <details>
 <summary>웹서버와 웹어플리케이션서버(WAS)의 차이점</summary>
 <div markdown="1">
-
-웹서버 : 정적인 컨텐츠(HTML, CSS, IMAGE 등)를 요청받아 처리
-WAS : 동적인 컨텐츠(JSP, ASP, PHP 등)를 요청받아 처리
-=> DB서버에 대한 접속 정보가 있기 때문에 외부에 노출 될 경우 보안상의 문제를 이유로 웹서버와의 연결을 통해 요청을 전달받음
+  
+- **웹서버** : 정적인 컨텐츠(HTML, CSS, IMAGE 등)를 요청받아 처리<br>
+  - 종류 : IIS, apache, tMax WebtoB
+- **WAS** : 동적인 컨텐츠(JSP, ASP, PHP 등)를 요청받아 처리<br>
+  - 종류 : tomcat, tMax jeus, BEA Web Logic, IBM Web Spere, JBOSS, Bluestone, Gemston, Inprise, Oracle, PowerTier, Apptivity, SilverStream<br>
+    => DB서버에 대한 접속 정보가 있기 때문에 외부에 노출 될 경우 보안상의 문제를 이유로 웹서버와의 연결을 통해 요청을 전달받음
   
 </div>
 </details>
@@ -86,3 +88,8 @@ response는 status code로 서버 요청에 따른 상태를 보낸다.
 - 4xx : 클라이언트 측에서 에러 발생
 - 5xx : 서버 측에서 에러 발생
 ### 8. 웹브라우저는 화면에 웹페이지 내용물 출력한다.
+
+## References
+[[번역] Browser에 www.google.com을 검색하면 어떤 일이 일어날까?](https://devjin-blog.com/what-happen-browser-search/)
+[웹의 동작방식](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+[WAS](https://enderbridge.tistory.com/37)
