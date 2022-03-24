@@ -90,6 +90,6 @@ response는 status code로 서버 요청에 따른 상태를 보낸다.
 ### 8. 웹브라우저는 화면에 웹페이지 내용물 출력한다.
 
 ## References
-[[번역] Browser에 www.google.com을 검색하면 어떤 일이 일어날까?](https://devjin-blog.com/what-happen-browser-search/)
-[웹의 동작방식](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+[[번역] Browser에 www.google.com을 검색하면 어떤 일이 일어날까?](https://devjin-blog.com/what-happen-browser-search/).
+[웹의 동작방식](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works).
 [WAS](https://enderbridge.tistory.com/37)
